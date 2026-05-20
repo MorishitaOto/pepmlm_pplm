@@ -1,0 +1,41 @@
+{
+  "PEPM_LM_NAME": "TianlaiChen/PepMLM-650M",
+  "DTYPE": "float32",
+
+  "TARGET_SEQUENCE": "SQIPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVVVNQQESSDSGTSVSEN",
+
+  "PEPTIDE_LEN": 15,
+  "NUM_GIBBS_STEPS": 10,
+  "TEMPERATURE": 1.0,
+  "NUM_SAMPLES_PER_ITER": 100,
+
+  "TOP_K_PERCENT": 0.1,
+
+  "MLM_MASK_PROB": 0.3,
+  "BATCH_SIZE": 5,
+  "NUM_EPOCHS": 2,
+  "LEARNING_RATE": 5e-5,
+
+  "NUM_ITERATIONS": 100,
+
+  "PPLM_SCRIPT": "/home/morishita/PPLM/run_pplm-affinity.py",
+
+  "SAVE_DIR": "/mnt/hdd/morishita/pepmlm_pplm/result/20260427_1YCR_af2bind",
+  "LOG_CSV": "20260427_1YCR_af2bind_training_log.csv",
+
+  "RANDOM_SEED": 42,
+
+  "PDB_PATH"               : "/home/morishita/pepmlm_pplm/data/pdb/1YCR_rec_colabfold.pdb",
+  "PDB_CHAIN"              : "A",
+  "AF2BIND_CONDA_ENV"      : "af2bind",
+  "AF2BIND_SCRIPT"         : "/home/morishita/af2bind/run_af2bind.py",
+  "AF2BIND_PARAMS_DIR"     : "/home/morishita/af2bind/af2bind_params",
+  "AF2BIND_AF_PARAMS_DIR"  : "/home/morishita/af2bind/params",
+  "AF2BIND_OUT_DIR"        : "/mnt/hdd/morishita/af2bind_outputs/20260427_1YCR_af2bind",
+  "AF2BIND_SEED"           : 0,
+  "AF2BIND_MASK_SIDECHAINS": true,
+
+  "AF2BIND_MATRIX_PATH"    : "/mnt/hdd/morishita/af2bind_outputs/20260427_1YCR_af2bind/20260427_1YCR_colabfold.npy",
+  "LAMBDA_AF2BIND"         : 1.0,
+  "PBIND_BIAS_SCALE"       : 5.0
+}

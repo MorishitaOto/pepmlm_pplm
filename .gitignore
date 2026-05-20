@@ -1,0 +1,50 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== Virtual env =====
+venv/
+.venv/
+env/
+
+# ===== Model checkpoints / weights =====
+checkpoint/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.zip
+*.pkl
+
+# ===== Large parameter files =====
+src/params/*.npz
+src/PPLM/pplm/models/*.pt
+src/PPLM/pplm_affinity/models/*.pkl
+src/PPLM/pplm_affinity/models/*.zip
+
+# ===== Generated pipeline outputs =====
+boltz/**/boltz_output/
+boltz/**/evaluation/
+boltz/**/pipeline.log
+boltz/**/pipeline_config.snapshot.json
+
+# ===== Inference / result outputs =====
+result/
+inference_result/
+
+# ===== Scheduler / cluster logs =====
+script/*.o*
+script/*.e*
+script/run_*.txt
+
+# ===== Misc generated files =====
+*.pdf
+*.csv
+
+# ===== Keep important data/config =====
+!config/
+!cryptic_json/
+!data/pdb/

@@ -1,0 +1,1362 @@
+[
+  {
+    "residue_id": 1,
+    "residue_name": "G",
+    "raw_score": 0.0015055628027766943,
+    "normalized_score": 0.0019029596870716596,
+    "active_score_type": "raw",
+    "displayed_score": 0.0015055628027766943
+  },
+  {
+    "residue_id": 2,
+    "residue_name": "M",
+    "raw_score": 0.0014075321378186345,
+    "normalized_score": 0.001779053594832952,
+    "active_score_type": "raw",
+    "displayed_score": 0.0014075321378186345
+  },
+  {
+    "residue_id": 3,
+    "residue_name": "T",
+    "raw_score": 0.013406895101070404,
+    "normalized_score": 0.01694567696484168,
+    "active_score_type": "raw",
+    "displayed_score": 0.013406895101070404
+  },
+  {
+    "residue_id": 4,
+    "residue_name": "E",
+    "raw_score": 0.03608820587396622,
+    "normalized_score": 0.04561377368665384,
+    "active_score_type": "raw",
+    "displayed_score": 0.03608820587396622
+  },
+  {
+    "residue_id": 5,
+    "residue_name": "Y",
+    "raw_score": 0.0033713290467858315,
+    "normalized_score": 0.00426119937079683,
+    "active_score_type": "raw",
+    "displayed_score": 0.0033713290467858315
+  },
+  {
+    "residue_id": 6,
+    "residue_name": "K",
+    "raw_score": 0.12005087733268738,
+    "normalized_score": 0.1517385920669382,
+    "active_score_type": "raw",
+    "displayed_score": 0.12005087733268738
+  },
+  {
+    "residue_id": 7,
+    "residue_name": "L",
+    "raw_score": 0.10129231959581375,
+    "normalized_score": 0.12802866837923718,
+    "active_score_type": "raw",
+    "displayed_score": 0.10129231959581375
+  },
+  {
+    "residue_id": 8,
+    "residue_name": "V",
+    "raw_score": 0.09454646706581116,
+    "normalized_score": 0.11950223202211545,
+    "active_score_type": "raw",
+    "displayed_score": 0.09454646706581116
+  },
+  {
+    "residue_id": 9,
+    "residue_name": "V",
+    "raw_score": 0.02133682183921337,
+    "normalized_score": 0.026968726734859096,
+    "active_score_type": "raw",
+    "displayed_score": 0.02133682183921337
+  },
+  {
+    "residue_id": 10,
+    "residue_name": "V",
+    "raw_score": 0.19329600036144257,
+    "normalized_score": 0.2443169396066512,
+    "active_score_type": "raw",
+    "displayed_score": 0.19329600036144257
+  },
+  {
+    "residue_id": 11,
+    "residue_name": "G",
+    "raw_score": 0.24417370557785034,
+    "normalized_score": 0.3086239361789487,
+    "active_score_type": "raw",
+    "displayed_score": 0.24417370557785034
+  },
+  {
+    "residue_id": 12,
+    "residue_name": "A",
+    "raw_score": 0.18239207565784454,
+    "normalized_score": 0.23053489803153837,
+    "active_score_type": "raw",
+    "displayed_score": 0.18239207565784454
+  },
+  {
+    "residue_id": 13,
+    "residue_name": "G",
+    "raw_score": 0.17683202028274536,
+    "normalized_score": 0.22350725280997322,
+    "active_score_type": "raw",
+    "displayed_score": 0.17683202028274536
+  },
+  {
+    "residue_id": 14,
+    "residue_name": "G",
+    "raw_score": 0.1861838400363922,
+    "normalized_score": 0.23532750764034574,
+    "active_score_type": "raw",
+    "displayed_score": 0.1861838400363922
+  },
+  {
+    "residue_id": 15,
+    "residue_name": "V",
+    "raw_score": 0.0641930103302002,
+    "normalized_score": 0.08113690815477985,
+    "active_score_type": "raw",
+    "displayed_score": 0.0641930103302002
+  },
+  {
+    "residue_id": 16,
+    "residue_name": "G",
+    "raw_score": 0.01697314903140068,
+    "normalized_score": 0.02145325210602026,
+    "active_score_type": "raw",
+    "displayed_score": 0.01697314903140068
+  },
+  {
+    "residue_id": 17,
+    "residue_name": "K",
+    "raw_score": 0.25658878684043884,
+    "normalized_score": 0.32431600768261004,
+    "active_score_type": "raw",
+    "displayed_score": 0.25658878684043884
+  },
+  {
+    "residue_id": 18,
+    "residue_name": "S",
+    "raw_score": 0.10708396881818771,
+    "normalized_score": 0.13534903719514518,
+    "active_score_type": "raw",
+    "displayed_score": 0.10708396881818771
+  },
+  {
+    "residue_id": 19,
+    "residue_name": "A",
+    "raw_score": 0.06145039200782776,
+    "normalized_score": 0.07767036920012892,
+    "active_score_type": "raw",
+    "displayed_score": 0.06145039200782776
+  },
+  {
+    "residue_id": 20,
+    "residue_name": "L",
+    "raw_score": 0.00868081022053957,
+    "normalized_score": 0.010972130734327516,
+    "active_score_type": "raw",
+    "displayed_score": 0.00868081022053957
+  },
+  {
+    "residue_id": 21,
+    "residue_name": "T",
+    "raw_score": 0.10007066279649734,
+    "normalized_score": 0.1264845523607964,
+    "active_score_type": "raw",
+    "displayed_score": 0.10007066279649734
+  },
+  {
+    "residue_id": 22,
+    "residue_name": "I",
+    "raw_score": 0.09268557280302048,
+    "normalized_score": 0.11715015029064428,
+    "active_score_type": "raw",
+    "displayed_score": 0.09268557280302048
+  },
+  {
+    "residue_id": 23,
+    "residue_name": "Q",
+    "raw_score": 0.01845644973218441,
+    "normalized_score": 0.023328073556305014,
+    "active_score_type": "raw",
+    "displayed_score": 0.01845644973218441
+  },
+  {
+    "residue_id": 24,
+    "residue_name": "L",
+    "raw_score": 0.006090664770454168,
+    "normalized_score": 0.007698310229414536,
+    "active_score_type": "raw",
+    "displayed_score": 0.006090664770454168
+  },
+  {
+    "residue_id": 25,
+    "residue_name": "I",
+    "raw_score": 0.03918498754501343,
+    "normalized_score": 0.049527958248597556,
+    "active_score_type": "raw",
+    "displayed_score": 0.03918498754501343
+  },
+  {
+    "residue_id": 26,
+    "residue_name": "Q",
+    "raw_score": 0.08450843393802643,
+    "normalized_score": 0.10681463616464966,
+    "active_score_type": "raw",
+    "displayed_score": 0.08450843393802643
+  },
+  {
+    "residue_id": 27,
+    "residue_name": "N",
+    "raw_score": 0.02303529530763626,
+    "normalized_score": 0.029115516316807165,
+    "active_score_type": "raw",
+    "displayed_score": 0.02303529530763626
+  },
+  {
+    "residue_id": 28,
+    "residue_name": "H",
+    "raw_score": 0.05404104292392731,
+    "normalized_score": 0.06830530479491116,
+    "active_score_type": "raw",
+    "displayed_score": 0.05404104292392731
+  },
+  {
+    "residue_id": 29,
+    "residue_name": "F",
+    "raw_score": 0.08573929220438004,
+    "normalized_score": 0.10837038239924711,
+    "active_score_type": "raw",
+    "displayed_score": 0.08573929220438004
+  },
+  {
+    "residue_id": 30,
+    "residue_name": "V",
+    "raw_score": 0.02655983157455921,
+    "normalized_score": 0.03357036231805445,
+    "active_score_type": "raw",
+    "displayed_score": 0.02655983157455921
+  },
+  {
+    "residue_id": 31,
+    "residue_name": "D",
+    "raw_score": 0.06854533404111862,
+    "normalized_score": 0.08663803806559389,
+    "active_score_type": "raw",
+    "displayed_score": 0.06854533404111862
+  },
+  {
+    "residue_id": 32,
+    "residue_name": "E",
+    "raw_score": 0.036032795906066895,
+    "normalized_score": 0.045543738125878905,
+    "active_score_type": "raw",
+    "displayed_score": 0.036032795906066895
+  },
+  {
+    "residue_id": 33,
+    "residue_name": "Y",
+    "raw_score": 0.23785339295864105,
+    "normalized_score": 0.30063536200465074,
+    "active_score_type": "raw",
+    "displayed_score": 0.23785339295864105
+  },
+  {
+    "residue_id": 34,
+    "residue_name": "D",
+    "raw_score": 0.16623805463314056,
+    "normalized_score": 0.21011698471870585,
+    "active_score_type": "raw",
+    "displayed_score": 0.16623805463314056
+  },
+  {
+    "residue_id": 35,
+    "residue_name": "P",
+    "raw_score": 0.45114514231681824,
+    "normalized_score": 0.5702259761358135,
+    "active_score_type": "raw",
+    "displayed_score": 0.45114514231681824
+  },
+  {
+    "residue_id": 36,
+    "residue_name": "T",
+    "raw_score": 0.35043224692344666,
+    "normalized_score": 0.4429296723559989,
+    "active_score_type": "raw",
+    "displayed_score": 0.35043224692344666
+  },
+  {
+    "residue_id": 37,
+    "residue_name": "I",
+    "raw_score": 0.1523221880197525,
+    "normalized_score": 0.19252799199976736,
+    "active_score_type": "raw",
+    "displayed_score": 0.1523221880197525
+  },
+  {
+    "residue_id": 38,
+    "residue_name": "E",
+    "raw_score": 0.27726563811302185,
+    "normalized_score": 0.35045056304937,
+    "active_score_type": "raw",
+    "displayed_score": 0.27726563811302185
+  },
+  {
+    "residue_id": 39,
+    "residue_name": "D",
+    "raw_score": 0.14696379005908966,
+    "normalized_score": 0.1857552321470249,
+    "active_score_type": "raw",
+    "displayed_score": 0.14696379005908966
+  },
+  {
+    "residue_id": 40,
+    "residue_name": "S",
+    "raw_score": 0.13968029618263245,
+    "normalized_score": 0.1765492427307288,
+    "active_score_type": "raw",
+    "displayed_score": 0.13968029618263245
+  },
+  {
+    "residue_id": 41,
+    "residue_name": "Y",
+    "raw_score": 0.12107586860656738,
+    "normalized_score": 0.15303413222653606,
+    "active_score_type": "raw",
+    "displayed_score": 0.12107586860656738
+  },
+  {
+    "residue_id": 42,
+    "residue_name": "R",
+    "raw_score": 0.13554544746875763,
+    "normalized_score": 0.171322990859912,
+    "active_score_type": "raw",
+    "displayed_score": 0.13554544746875763
+  },
+  {
+    "residue_id": 43,
+    "residue_name": "K",
+    "raw_score": 0.02843806892633438,
+    "normalized_score": 0.03594436488811562,
+    "active_score_type": "raw",
+    "displayed_score": 0.02843806892633438
+  },
+  {
+    "residue_id": 44,
+    "residue_name": "Q",
+    "raw_score": 0.04529810696840286,
+    "normalized_score": 0.057254650090020696,
+    "active_score_type": "raw",
+    "displayed_score": 0.04529810696840286
+  },
+  {
+    "residue_id": 45,
+    "residue_name": "V",
+    "raw_score": 0.00492903171107173,
+    "normalized_score": 0.006230061359890381,
+    "active_score_type": "raw",
+    "displayed_score": 0.00492903171107173
+  },
+  {
+    "residue_id": 46,
+    "residue_name": "V",
+    "raw_score": 0.0021317116916179657,
+    "normalized_score": 0.002694382065050257,
+    "active_score_type": "raw",
+    "displayed_score": 0.0021317116916179657
+  },
+  {
+    "residue_id": 47,
+    "residue_name": "I",
+    "raw_score": 0.0020702986512333155,
+    "normalized_score": 0.0026167589065231216,
+    "active_score_type": "raw",
+    "displayed_score": 0.0020702986512333155
+  },
+  {
+    "residue_id": 48,
+    "residue_name": "D",
+    "raw_score": 0.0016044597141444683,
+    "normalized_score": 0.0020279606735211677,
+    "active_score_type": "raw",
+    "displayed_score": 0.0016044597141444683
+  },
+  {
+    "residue_id": 49,
+    "residue_name": "G",
+    "raw_score": 0.0008085650042630732,
+    "normalized_score": 0.0010219876611269922,
+    "active_score_type": "raw",
+    "displayed_score": 0.0008085650042630732
+  },
+  {
+    "residue_id": 50,
+    "residue_name": "E",
+    "raw_score": 0.0007475900929421186,
+    "normalized_score": 0.0009449182768724478,
+    "active_score_type": "raw",
+    "displayed_score": 0.0007475900929421186
+  },
+  {
+    "residue_id": 51,
+    "residue_name": "T",
+    "raw_score": 0.00408653449267149,
+    "normalized_score": 0.005165184995962667,
+    "active_score_type": "raw",
+    "displayed_score": 0.00408653449267149
+  },
+  {
+    "residue_id": 52,
+    "residue_name": "C",
+    "raw_score": 0.004603131208568811,
+    "normalized_score": 0.005818138644268245,
+    "active_score_type": "raw",
+    "displayed_score": 0.004603131208568811
+  },
+  {
+    "residue_id": 53,
+    "residue_name": "L",
+    "raw_score": 0.026850100606679916,
+    "normalized_score": 0.03393724855190154,
+    "active_score_type": "raw",
+    "displayed_score": 0.026850100606679916
+  },
+  {
+    "residue_id": 54,
+    "residue_name": "L",
+    "raw_score": 0.005328579805791378,
+    "normalized_score": 0.00673507112494005,
+    "active_score_type": "raw",
+    "displayed_score": 0.005328579805791378
+  },
+  {
+    "residue_id": 55,
+    "residue_name": "D",
+    "raw_score": 0.12892870604991913,
+    "normalized_score": 0.16295974479896733,
+    "active_score_type": "raw",
+    "displayed_score": 0.12892870604991913
+  },
+  {
+    "residue_id": 56,
+    "residue_name": "I",
+    "raw_score": 0.10266374796628952,
+    "normalized_score": 0.12976208853142784,
+    "active_score_type": "raw",
+    "displayed_score": 0.10266374796628952
+  },
+  {
+    "residue_id": 57,
+    "residue_name": "L",
+    "raw_score": 0.09036926180124283,
+    "normalized_score": 0.11422244348826174,
+    "active_score_type": "raw",
+    "displayed_score": 0.09036926180124283
+  },
+  {
+    "residue_id": 58,
+    "residue_name": "D",
+    "raw_score": 0.05611810088157654,
+    "normalized_score": 0.07093060714286252,
+    "active_score_type": "raw",
+    "displayed_score": 0.05611810088157654
+  },
+  {
+    "residue_id": 59,
+    "residue_name": "T",
+    "raw_score": 0.4016343057155609,
+    "normalized_score": 0.5076466364021133,
+    "active_score_type": "raw",
+    "displayed_score": 0.4016343057155609
+  },
+  {
+    "residue_id": 60,
+    "residue_name": "A",
+    "raw_score": 0.3900437355041504,
+    "normalized_score": 0.49299670760352077,
+    "active_score_type": "raw",
+    "displayed_score": 0.3900437355041504
+  },
+  {
+    "residue_id": 61,
+    "residue_name": "G",
+    "raw_score": 0.5254680514335632,
+    "normalized_score": 0.6641665939660442,
+    "active_score_type": "raw",
+    "displayed_score": 0.5254680514335632
+  },
+  {
+    "residue_id": 62,
+    "residue_name": "Q",
+    "raw_score": 0.4737287759780884,
+    "normalized_score": 0.5987706136399628,
+    "active_score_type": "raw",
+    "displayed_score": 0.4737287759780884
+  },
+  {
+    "residue_id": 63,
+    "residue_name": "E",
+    "raw_score": 0.6537447571754456,
+    "normalized_score": 0.826302241424227,
+    "active_score_type": "raw",
+    "displayed_score": 0.6537447571754456
+  },
+  {
+    "residue_id": 64,
+    "residue_name": "E",
+    "raw_score": 0.4662390649318695,
+    "normalized_score": 0.5893039755412505,
+    "active_score_type": "raw",
+    "displayed_score": 0.4662390649318695
+  },
+  {
+    "residue_id": 65,
+    "residue_name": "Y",
+    "raw_score": 0.481059730052948,
+    "normalized_score": 0.6080365904869616,
+    "active_score_type": "raw",
+    "displayed_score": 0.481059730052948
+  },
+  {
+    "residue_id": 66,
+    "residue_name": "S",
+    "raw_score": 0.32471802830696106,
+    "normalized_score": 0.41042812454844624,
+    "active_score_type": "raw",
+    "displayed_score": 0.32471802830696106
+  },
+  {
+    "residue_id": 67,
+    "residue_name": "A",
+    "raw_score": 0.00909833237528801,
+    "normalized_score": 0.011499858855320035,
+    "active_score_type": "raw",
+    "displayed_score": 0.00909833237528801
+  },
+  {
+    "residue_id": 68,
+    "residue_name": "M",
+    "raw_score": 0.09708098322153091,
+    "normalized_score": 0.12270573974804451,
+    "active_score_type": "raw",
+    "displayed_score": 0.09708098322153091
+  },
+  {
+    "residue_id": 69,
+    "residue_name": "R",
+    "raw_score": 0.7911690473556519,
+    "normalized_score": 1,
+    "active_score_type": "raw",
+    "displayed_score": 0.7911690473556519
+  },
+  {
+    "residue_id": 70,
+    "residue_name": "D",
+    "raw_score": 0.46428266167640686,
+    "normalized_score": 0.586831174991227,
+    "active_score_type": "raw",
+    "displayed_score": 0.46428266167640686
+  },
+  {
+    "residue_id": 71,
+    "residue_name": "Q",
+    "raw_score": 0.06198190897703171,
+    "normalized_score": 0.0783421813381043,
+    "active_score_type": "raw",
+    "displayed_score": 0.06198190897703171
+  },
+  {
+    "residue_id": 72,
+    "residue_name": "Y",
+    "raw_score": 0.1504961997270584,
+    "normalized_score": 0.19022002975225888,
+    "active_score_type": "raw",
+    "displayed_score": 0.1504961997270584
+  },
+  {
+    "residue_id": 73,
+    "residue_name": "M",
+    "raw_score": 0.31259238719940186,
+    "normalized_score": 0.39510189161746,
+    "active_score_type": "raw",
+    "displayed_score": 0.31259238719940186
+  },
+  {
+    "residue_id": 74,
+    "residue_name": "R",
+    "raw_score": 0.008515303954482079,
+    "normalized_score": 0.0107629386955203,
+    "active_score_type": "raw",
+    "displayed_score": 0.008515303954482079
+  },
+  {
+    "residue_id": 75,
+    "residue_name": "T",
+    "raw_score": 0.08189185708761215,
+    "normalized_score": 0.1035074076283972,
+    "active_score_type": "raw",
+    "displayed_score": 0.08189185708761215
+  },
+  {
+    "residue_id": 76,
+    "residue_name": "G",
+    "raw_score": 0.06574133038520813,
+    "normalized_score": 0.0830939109725505,
+    "active_score_type": "raw",
+    "displayed_score": 0.06574133038520813
+  },
+  {
+    "residue_id": 77,
+    "residue_name": "E",
+    "raw_score": 0.0044884528033435345,
+    "normalized_score": 0.005673190601105321,
+    "active_score_type": "raw",
+    "displayed_score": 0.0044884528033435345
+  },
+  {
+    "residue_id": 78,
+    "residue_name": "G",
+    "raw_score": 0.002554703038185835,
+    "normalized_score": 0.0032290229840569416,
+    "active_score_type": "raw",
+    "displayed_score": 0.002554703038185835
+  },
+  {
+    "residue_id": 79,
+    "residue_name": "F",
+    "raw_score": 0.24088305234909058,
+    "normalized_score": 0.3044647072003149,
+    "active_score_type": "raw",
+    "displayed_score": 0.24088305234909058
+  },
+  {
+    "residue_id": 80,
+    "residue_name": "L",
+    "raw_score": 0.0010984422406181693,
+    "normalized_score": 0.0013883786837838588,
+    "active_score_type": "raw",
+    "displayed_score": 0.0010984422406181693
+  },
+  {
+    "residue_id": 81,
+    "residue_name": "C",
+    "raw_score": 0.009879272431135178,
+    "normalized_score": 0.012486929897162899,
+    "active_score_type": "raw",
+    "displayed_score": 0.009879272431135178
+  },
+  {
+    "residue_id": 82,
+    "residue_name": "V",
+    "raw_score": 0.010285048745572567,
+    "normalized_score": 0.012999811835344918,
+    "active_score_type": "raw",
+    "displayed_score": 0.010285048745572567
+  },
+  {
+    "residue_id": 83,
+    "residue_name": "F",
+    "raw_score": 0.00882269348949194,
+    "normalized_score": 0.011151464429732551,
+    "active_score_type": "raw",
+    "displayed_score": 0.00882269348949194
+  },
+  {
+    "residue_id": 84,
+    "residue_name": "A",
+    "raw_score": 0.017882071435451508,
+    "normalized_score": 0.02260208674141044,
+    "active_score_type": "raw",
+    "displayed_score": 0.017882071435451508
+  },
+  {
+    "residue_id": 85,
+    "residue_name": "I",
+    "raw_score": 0.004742264281958342,
+    "normalized_score": 0.00599399622344751,
+    "active_score_type": "raw",
+    "displayed_score": 0.004742264281958342
+  },
+  {
+    "residue_id": 86,
+    "residue_name": "N",
+    "raw_score": 0.007154038641601801,
+    "normalized_score": 0.009042364164160568,
+    "active_score_type": "raw",
+    "displayed_score": 0.007154038641601801
+  },
+  {
+    "residue_id": 87,
+    "residue_name": "N",
+    "raw_score": 0.09977157413959503,
+    "normalized_score": 0.1261065185412202,
+    "active_score_type": "raw",
+    "displayed_score": 0.09977157413959503
+  },
+  {
+    "residue_id": 88,
+    "residue_name": "T",
+    "raw_score": 0.001488052075728774,
+    "normalized_score": 0.001880826961952487,
+    "active_score_type": "raw",
+    "displayed_score": 0.001488052075728774
+  },
+  {
+    "residue_id": 89,
+    "residue_name": "K",
+    "raw_score": 0.5940651297569275,
+    "normalized_score": 0.7508700343403085,
+    "active_score_type": "raw",
+    "displayed_score": 0.5940651297569275
+  },
+  {
+    "residue_id": 90,
+    "residue_name": "S",
+    "raw_score": 0.00846171099692583,
+    "normalized_score": 0.010695199749292093,
+    "active_score_type": "raw",
+    "displayed_score": 0.00846171099692583
+  },
+  {
+    "residue_id": 91,
+    "residue_name": "F",
+    "raw_score": 0.0018403647700324655,
+    "normalized_score": 0.00232613343024929,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018403647700324655
+  },
+  {
+    "residue_id": 92,
+    "residue_name": "E",
+    "raw_score": 0.06046310067176819,
+    "normalized_score": 0.07642247996664661,
+    "active_score_type": "raw",
+    "displayed_score": 0.06046310067176819
+  },
+  {
+    "residue_id": 93,
+    "residue_name": "D",
+    "raw_score": 0.5999606847763062,
+    "normalized_score": 0.7583217351355855,
+    "active_score_type": "raw",
+    "displayed_score": 0.5999606847763062
+  },
+  {
+    "residue_id": 94,
+    "residue_name": "I",
+    "raw_score": 0.0126866539940238,
+    "normalized_score": 0.016035326503769057,
+    "active_score_type": "raw",
+    "displayed_score": 0.0126866539940238
+  },
+  {
+    "residue_id": 95,
+    "residue_name": "H",
+    "raw_score": 0.03925320506095886,
+    "normalized_score": 0.04961418194020106,
+    "active_score_type": "raw",
+    "displayed_score": 0.03925320506095886
+  },
+  {
+    "residue_id": 96,
+    "residue_name": "H",
+    "raw_score": 0.48790350556373596,
+    "normalized_score": 0.6166867968286557,
+    "active_score_type": "raw",
+    "displayed_score": 0.48790350556373596
+  },
+  {
+    "residue_id": 97,
+    "residue_name": "Y",
+    "raw_score": 0.562849760055542,
+    "normalized_score": 0.7114152935289515,
+    "active_score_type": "raw",
+    "displayed_score": 0.562849760055542
+  },
+  {
+    "residue_id": 98,
+    "residue_name": "R",
+    "raw_score": 0.01975160837173462,
+    "normalized_score": 0.0249650924006077,
+    "active_score_type": "raw",
+    "displayed_score": 0.01975160837173462
+  },
+  {
+    "residue_id": 99,
+    "residue_name": "E",
+    "raw_score": 0.05422435328364372,
+    "normalized_score": 0.0685370003602636,
+    "active_score_type": "raw",
+    "displayed_score": 0.05422435328364372
+  },
+  {
+    "residue_id": 100,
+    "residue_name": "Q",
+    "raw_score": 0.7089811563491821,
+    "normalized_score": 0.896118419595447,
+    "active_score_type": "raw",
+    "displayed_score": 0.7089811563491821
+  },
+  {
+    "residue_id": 101,
+    "residue_name": "I",
+    "raw_score": 0.25078436732292175,
+    "normalized_score": 0.3169794978217688,
+    "active_score_type": "raw",
+    "displayed_score": 0.25078436732292175
+  },
+  {
+    "residue_id": 102,
+    "residue_name": "K",
+    "raw_score": 0.02400442771613598,
+    "normalized_score": 0.03034045353059084,
+    "active_score_type": "raw",
+    "displayed_score": 0.02400442771613598
+  },
+  {
+    "residue_id": 103,
+    "residue_name": "R",
+    "raw_score": 0.5895549654960632,
+    "normalized_score": 0.7451694014908072,
+    "active_score_type": "raw",
+    "displayed_score": 0.5895549654960632
+  },
+  {
+    "residue_id": 104,
+    "residue_name": "V",
+    "raw_score": 0.27882280945777893,
+    "normalized_score": 0.3524187534758808,
+    "active_score_type": "raw",
+    "displayed_score": 0.27882280945777893
+  },
+  {
+    "residue_id": 105,
+    "residue_name": "K",
+    "raw_score": 0.005795688834041357,
+    "normalized_score": 0.007325474692687312,
+    "active_score_type": "raw",
+    "displayed_score": 0.005795688834041357
+  },
+  {
+    "residue_id": 106,
+    "residue_name": "D",
+    "raw_score": 0.00524756358936429,
+    "normalized_score": 0.0066326704854081184,
+    "active_score_type": "raw",
+    "displayed_score": 0.00524756358936429
+  },
+  {
+    "residue_id": 107,
+    "residue_name": "S",
+    "raw_score": 0.003107142634689808,
+    "normalized_score": 0.003927280326593797,
+    "active_score_type": "raw",
+    "displayed_score": 0.003107142634689808
+  },
+  {
+    "residue_id": 108,
+    "residue_name": "E",
+    "raw_score": 0.005956287030130625,
+    "normalized_score": 0.007528463164779389,
+    "active_score_type": "raw",
+    "displayed_score": 0.005956287030130625
+  },
+  {
+    "residue_id": 109,
+    "residue_name": "D",
+    "raw_score": 0.003390870988368988,
+    "normalized_score": 0.0042858994543611105,
+    "active_score_type": "raw",
+    "displayed_score": 0.003390870988368988
+  },
+  {
+    "residue_id": 110,
+    "residue_name": "V",
+    "raw_score": 0.006530834827572107,
+    "normalized_score": 0.0082546642204979,
+    "active_score_type": "raw",
+    "displayed_score": 0.006530834827572107
+  },
+  {
+    "residue_id": 111,
+    "residue_name": "P",
+    "raw_score": 0.0011897161602973938,
+    "normalized_score": 0.001503744571749638,
+    "active_score_type": "raw",
+    "displayed_score": 0.0011897161602973938
+  },
+  {
+    "residue_id": 112,
+    "residue_name": "M",
+    "raw_score": 0.026690497994422913,
+    "normalized_score": 0.03373551845036325,
+    "active_score_type": "raw",
+    "displayed_score": 0.026690497994422913
+  },
+  {
+    "residue_id": 113,
+    "residue_name": "V",
+    "raw_score": 0.0008622733294032514,
+    "normalized_score": 0.0010898724264874285,
+    "active_score_type": "raw",
+    "displayed_score": 0.0008622733294032514
+  },
+  {
+    "residue_id": 114,
+    "residue_name": "L",
+    "raw_score": 0.0035574447829276323,
+    "normalized_score": 0.004496440798357554,
+    "active_score_type": "raw",
+    "displayed_score": 0.0035574447829276323
+  },
+  {
+    "residue_id": 115,
+    "residue_name": "V",
+    "raw_score": 0.0014857916394248605,
+    "normalized_score": 0.0018779698781074242,
+    "active_score_type": "raw",
+    "displayed_score": 0.0014857916394248605
+  },
+  {
+    "residue_id": 116,
+    "residue_name": "G",
+    "raw_score": 0.0019709940534085035,
+    "normalized_score": 0.0024912426238061463,
+    "active_score_type": "raw",
+    "displayed_score": 0.0019709940534085035
+  },
+  {
+    "residue_id": 117,
+    "residue_name": "N",
+    "raw_score": 0.01001292746514082,
+    "normalized_score": 0.012655863495427846,
+    "active_score_type": "raw",
+    "displayed_score": 0.01001292746514082
+  },
+  {
+    "residue_id": 118,
+    "residue_name": "K",
+    "raw_score": 0.06131914258003235,
+    "normalized_score": 0.07750447617355756,
+    "active_score_type": "raw",
+    "displayed_score": 0.06131914258003235
+  },
+  {
+    "residue_id": 119,
+    "residue_name": "S",
+    "raw_score": 0.0011999455746263266,
+    "normalized_score": 0.0015166740643316884,
+    "active_score_type": "raw",
+    "displayed_score": 0.0011999455746263266
+  },
+  {
+    "residue_id": 120,
+    "residue_name": "D",
+    "raw_score": 0.01238331850618124,
+    "normalized_score": 0.015651924892120563,
+    "active_score_type": "raw",
+    "displayed_score": 0.01238331850618124
+  },
+  {
+    "residue_id": 121,
+    "residue_name": "L",
+    "raw_score": 0.003562309080734849,
+    "normalized_score": 0.004502589039145632,
+    "active_score_type": "raw",
+    "displayed_score": 0.003562309080734849
+  },
+  {
+    "residue_id": 122,
+    "residue_name": "P",
+    "raw_score": 0.0025499032344669104,
+    "normalized_score": 0.003222956260725225,
+    "active_score_type": "raw",
+    "displayed_score": 0.0025499032344669104
+  },
+  {
+    "residue_id": 123,
+    "residue_name": "S",
+    "raw_score": 0.0017549159238114953,
+    "normalized_score": 0.002218130157741893,
+    "active_score_type": "raw",
+    "displayed_score": 0.0017549159238114953
+  },
+  {
+    "residue_id": 124,
+    "residue_name": "R",
+    "raw_score": 0.0031040306203067303,
+    "normalized_score": 0.003923346888609236,
+    "active_score_type": "raw",
+    "displayed_score": 0.0031040306203067303
+  },
+  {
+    "residue_id": 125,
+    "residue_name": "T",
+    "raw_score": 0.0016815739218145609,
+    "normalized_score": 0.0021254293597998256,
+    "active_score_type": "raw",
+    "displayed_score": 0.0016815739218145609
+  },
+  {
+    "residue_id": 126,
+    "residue_name": "V",
+    "raw_score": 0.0015578868333250284,
+    "normalized_score": 0.0019690947699887913,
+    "active_score_type": "raw",
+    "displayed_score": 0.0015578868333250284
+  },
+  {
+    "residue_id": 127,
+    "residue_name": "D",
+    "raw_score": 0.0011720045004040003,
+    "normalized_score": 0.0014813578770823078,
+    "active_score_type": "raw",
+    "displayed_score": 0.0011720045004040003
+  },
+  {
+    "residue_id": 128,
+    "residue_name": "T",
+    "raw_score": 0.0003559172328095883,
+    "normalized_score": 0.00044986243331836755,
+    "active_score_type": "raw",
+    "displayed_score": 0.0003559172328095883
+  },
+  {
+    "residue_id": 129,
+    "residue_name": "K",
+    "raw_score": 0.0016205188585445285,
+    "normalized_score": 0.002048258667298522,
+    "active_score_type": "raw",
+    "displayed_score": 0.0016205188585445285
+  },
+  {
+    "residue_id": 130,
+    "residue_name": "Q",
+    "raw_score": 0.006600302644073963,
+    "normalized_score": 0.008342468232464798,
+    "active_score_type": "raw",
+    "displayed_score": 0.006600302644073963
+  },
+  {
+    "residue_id": 131,
+    "residue_name": "A",
+    "raw_score": 0.0020025470294058323,
+    "normalized_score": 0.0025311240828985986,
+    "active_score_type": "raw",
+    "displayed_score": 0.0020025470294058323
+  },
+  {
+    "residue_id": 132,
+    "residue_name": "Q",
+    "raw_score": 0.0018341009272262454,
+    "normalized_score": 0.0023182162312294905,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018341009272262454
+  },
+  {
+    "residue_id": 133,
+    "residue_name": "D",
+    "raw_score": 0.0015302073443308473,
+    "normalized_score": 0.0019341092140109694,
+    "active_score_type": "raw",
+    "displayed_score": 0.0015302073443308473
+  },
+  {
+    "residue_id": 134,
+    "residue_name": "L",
+    "raw_score": 0.007573093753308058,
+    "normalized_score": 0.009572029869747607,
+    "active_score_type": "raw",
+    "displayed_score": 0.007573093753308058
+  },
+  {
+    "residue_id": 135,
+    "residue_name": "A",
+    "raw_score": 0.00039102989831008017,
+    "normalized_score": 0.0004942431704286602,
+    "active_score_type": "raw",
+    "displayed_score": 0.00039102989831008017
+  },
+  {
+    "residue_id": 136,
+    "residue_name": "R",
+    "raw_score": 0.0009001962607726455,
+    "normalized_score": 0.0011378052058297764,
+    "active_score_type": "raw",
+    "displayed_score": 0.0009001962607726455
+  },
+  {
+    "residue_id": 137,
+    "residue_name": "S",
+    "raw_score": 0.0054581379517912865,
+    "normalized_score": 0.006898826451861566,
+    "active_score_type": "raw",
+    "displayed_score": 0.0054581379517912865
+  },
+  {
+    "residue_id": 138,
+    "residue_name": "Y",
+    "raw_score": 0.02122778259217739,
+    "normalized_score": 0.026830906319107967,
+    "active_score_type": "raw",
+    "displayed_score": 0.02122778259217739
+  },
+  {
+    "residue_id": 139,
+    "residue_name": "G",
+    "raw_score": 0.0005351430736482143,
+    "normalized_score": 0.0006763953613160666,
+    "active_score_type": "raw",
+    "displayed_score": 0.0005351430736482143
+  },
+  {
+    "residue_id": 140,
+    "residue_name": "I",
+    "raw_score": 0.003682913724333048,
+    "normalized_score": 0.004655027565401555,
+    "active_score_type": "raw",
+    "displayed_score": 0.003682913724333048
+  },
+  {
+    "residue_id": 141,
+    "residue_name": "P",
+    "raw_score": 0.0008045013528317213,
+    "normalized_score": 0.0010168513992308348,
+    "active_score_type": "raw",
+    "displayed_score": 0.0008045013528317213
+  },
+  {
+    "residue_id": 142,
+    "residue_name": "F",
+    "raw_score": 0.0018074025865644217,
+    "normalized_score": 0.002284470800021004,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018074025865644217
+  },
+  {
+    "residue_id": 143,
+    "residue_name": "I",
+    "raw_score": 0.0014245441416278481,
+    "normalized_score": 0.0018005559575278442,
+    "active_score_type": "raw",
+    "displayed_score": 0.0014245441416278481
+  },
+  {
+    "residue_id": 144,
+    "residue_name": "E",
+    "raw_score": 0.0026938053779304028,
+    "normalized_score": 0.0034048417173725256,
+    "active_score_type": "raw",
+    "displayed_score": 0.0026938053779304028
+  },
+  {
+    "residue_id": 145,
+    "residue_name": "T",
+    "raw_score": 0.006016194820404053,
+    "normalized_score": 0.0076041837588466865,
+    "active_score_type": "raw",
+    "displayed_score": 0.006016194820404053
+  },
+  {
+    "residue_id": 146,
+    "residue_name": "S",
+    "raw_score": 0.002222212962806225,
+    "normalized_score": 0.0028087713621173555,
+    "active_score_type": "raw",
+    "displayed_score": 0.002222212962806225
+  },
+  {
+    "residue_id": 147,
+    "residue_name": "A",
+    "raw_score": 0.014459983445703983,
+    "normalized_score": 0.018276730483875757,
+    "active_score_type": "raw",
+    "displayed_score": 0.014459983445703983
+  },
+  {
+    "residue_id": 148,
+    "residue_name": "K",
+    "raw_score": 0.042405009269714355,
+    "normalized_score": 0.053597912369607856,
+    "active_score_type": "raw",
+    "displayed_score": 0.042405009269714355
+  },
+  {
+    "residue_id": 149,
+    "residue_name": "T",
+    "raw_score": 0.005336354486644268,
+    "normalized_score": 0.006744897951303993,
+    "active_score_type": "raw",
+    "displayed_score": 0.005336354486644268
+  },
+  {
+    "residue_id": 150,
+    "residue_name": "R",
+    "raw_score": 0.008671152405440807,
+    "normalized_score": 0.010959923715952566,
+    "active_score_type": "raw",
+    "displayed_score": 0.008671152405440807
+  },
+  {
+    "residue_id": 151,
+    "residue_name": "Q",
+    "raw_score": 0.003162963315844536,
+    "normalized_score": 0.003997835009365196,
+    "active_score_type": "raw",
+    "displayed_score": 0.003162963315844536
+  },
+  {
+    "residue_id": 152,
+    "residue_name": "G",
+    "raw_score": 0.0020510470494627953,
+    "normalized_score": 0.00259242579865589,
+    "active_score_type": "raw",
+    "displayed_score": 0.0020510470494627953
+  },
+  {
+    "residue_id": 153,
+    "residue_name": "V",
+    "raw_score": 0.0018557618604972959,
+    "normalized_score": 0.0023455946193798463,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018557618604972959
+  },
+  {
+    "residue_id": 154,
+    "residue_name": "D",
+    "raw_score": 0.0047006383538246155,
+    "normalized_score": 0.005941383032533566,
+    "active_score_type": "raw",
+    "displayed_score": 0.0047006383538246155
+  },
+  {
+    "residue_id": 155,
+    "residue_name": "D",
+    "raw_score": 0.0003658949281089008,
+    "normalized_score": 0.00046247376503396134,
+    "active_score_type": "raw",
+    "displayed_score": 0.0003658949281089008
+  },
+  {
+    "residue_id": 156,
+    "residue_name": "A",
+    "raw_score": 0.00007558348443126306,
+    "normalized_score": 0.00009553392499856765,
+    "active_score_type": "raw",
+    "displayed_score": 0.00007558348443126306
+  },
+  {
+    "residue_id": 157,
+    "residue_name": "F",
+    "raw_score": 0.0026064286939799786,
+    "normalized_score": 0.0032944017497796756,
+    "active_score_type": "raw",
+    "displayed_score": 0.0026064286939799786
+  },
+  {
+    "residue_id": 158,
+    "residue_name": "Y",
+    "raw_score": 0.001644366537220776,
+    "normalized_score": 0.0020784009975071596,
+    "active_score_type": "raw",
+    "displayed_score": 0.001644366537220776
+  },
+  {
+    "residue_id": 159,
+    "residue_name": "T",
+    "raw_score": 0.0006676048506051302,
+    "normalized_score": 0.0008438207394949107,
+    "active_score_type": "raw",
+    "displayed_score": 0.0006676048506051302
+  },
+  {
+    "residue_id": 160,
+    "residue_name": "L",
+    "raw_score": 0.0005143774906173348,
+    "normalized_score": 0.0006501486532322696,
+    "active_score_type": "raw",
+    "displayed_score": 0.0005143774906173348
+  },
+  {
+    "residue_id": 161,
+    "residue_name": "V",
+    "raw_score": 0.0010261606657877564,
+    "normalized_score": 0.0012970182152822133,
+    "active_score_type": "raw",
+    "displayed_score": 0.0010261606657877564
+  },
+  {
+    "residue_id": 162,
+    "residue_name": "R",
+    "raw_score": 0.001096588559448719,
+    "normalized_score": 0.0013860357190588787,
+    "active_score_type": "raw",
+    "displayed_score": 0.001096588559448719
+  },
+  {
+    "residue_id": 163,
+    "residue_name": "E",
+    "raw_score": 0.0003697716456372291,
+    "normalized_score": 0.00046737375137858087,
+    "active_score_type": "raw",
+    "displayed_score": 0.0003697716456372291
+  },
+  {
+    "residue_id": 164,
+    "residue_name": "I",
+    "raw_score": 0.0009249062277376652,
+    "normalized_score": 0.0011690374273728315,
+    "active_score_type": "raw",
+    "displayed_score": 0.0009249062277376652
+  },
+  {
+    "residue_id": 165,
+    "residue_name": "R",
+    "raw_score": 0.001498181838542223,
+    "normalized_score": 0.0018936304997644198,
+    "active_score_type": "raw",
+    "displayed_score": 0.001498181838542223
+  },
+  {
+    "residue_id": 166,
+    "residue_name": "K",
+    "raw_score": 0.0013908479595556855,
+    "normalized_score": 0.0017579655880173252,
+    "active_score_type": "raw",
+    "displayed_score": 0.0013908479595556855
+  },
+  {
+    "residue_id": 167,
+    "residue_name": "H",
+    "raw_score": 0.0018877391703426838,
+    "normalized_score": 0.0023860124162492597,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018877391703426838
+  },
+  {
+    "residue_id": 168,
+    "residue_name": "K",
+    "raw_score": 0.0018435884267091751,
+    "normalized_score": 0.002330207978776541,
+    "active_score_type": "raw",
+    "displayed_score": 0.0018435884267091751
+  },
+  {
+    "residue_id": 169,
+    "residue_name": "E",
+    "raw_score": 0.0004986313870176673,
+    "normalized_score": 0.0006302463281194556,
+    "active_score_type": "raw",
+    "displayed_score": 0.0004986313870176673
+  },
+  {
+    "residue_id": 170,
+    "residue_name": "K",
+    "raw_score": 0.0060587250627577305,
+    "normalized_score": 0.0076579399598707635,
+    "active_score_type": "raw",
+    "displayed_score": 0.0060587250627577305
+  }
+]

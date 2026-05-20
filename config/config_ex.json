@@ -1,0 +1,28 @@
+{
+  "PEPM_LM_NAME": "TianlaiChen/PepMLM-650M",
+  "DTYPE": "float32",
+
+  "TARGET_SEQUENCE": "SQIPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVVVNQQESSDSGTSVSEN",
+
+  "PEPTIDE_LEN": 15,
+  "NUM_GIBBS_STEPS": 10,
+  "TEMPERATURE": 1.0,
+  "NUM_SAMPLES_PER_ITER": 10,
+
+  "TOP_K_PERCENT": 0.01,
+
+  "MLM_MASK_PROB": 0.3,
+  "BATCH_SIZE": 5,
+  "NUM_EPOCHS": 2,
+  "LEARNING_RATE": 5e-5,
+
+  "NUM_ITERATIONS": 1,
+
+  "PPLM_SCRIPT": "/home/morishita/PPLM/run_pplm-affinity.py",
+
+  "SAVE_DIR": "/home/ssd1/morishita/pepmlm_pplm/result/example",
+  "LOG_CSV": "training_log.csv",
+
+  "RANDOM_SEED": 42
+}
+
