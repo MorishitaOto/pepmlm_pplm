@@ -569,7 +569,13 @@ def step_evaluate(
             "--cryptic_scores_json", pipeline_cfg["CRYPTIC_SCORES_JSON"],
             "--cryptic_threshold", str(pipeline_cfg["CRYPTIC_THRESHOLD"]),
         ]
-
+    # CryptoBank crypticity score
+    if pipeline_cfg.get("CRYPTOBANK_DIR"):
+        cmd += [
+            "--cryptobank_dir", pipeline_cfg["CRYPTOBANK_DIR"],
+            "--cryptobank_n_lig_splits",
+            str(pipeline_cfg.get("CRYPTOBANK_N_LIG_SPLITS", 1)),
+        ]
     run_cmd(cmd, log_file=paths["log_file"])
 
     summary = paths["evaluation_dir"] / "evaluation_summary.csv"

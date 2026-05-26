@@ -28,6 +28,15 @@ from transformers import (
 from compute_PPLM_affinity import PPLMAffinityPredictor
 from mmseq2_clustering import mmseqs_cluster_from_sequences
 
+# ---- 並列 PPLM 評価 (オプション) ----
+# config に "PPLM_NUM_GPUS" > 1 が指定されたときだけ使用される。
+# 未指定 / =1 のときは従来通り PPLMEvaluator が逐次で動く。
+try:
+    from pplm_parallel_evaluator import ParallelPPLMEvaluator
+    _PARALLEL_PPLM_AVAILABLE = True
+except ImportError:
+    _PARALLEL_PPLM_AVAILABLE = False
+
 # ---- AF2BIND prior（オプション） ----
 try:
     from af2bind_prior import AF2BindPrior, load_af2bind_matrix
@@ -577,6 +586,42 @@ def main():
     evaluator = PPLMEvaluator(cfg.PPLM_SCRIPT)
     optimizer = AdamW(model.parameters(), lr=cfg.LEARNING_RATE)
 
+    # =========================
+    # 並列 PPLM 評価の初期化 (オプション)
+    # =========================
+    # config に PPLM_NUM_GPUS > 1 を指定すると、PPLM 評価を複数 GPU に分散する。
+    # 未指定 / =1 のときは従来通り (evaluator.score を逐次呼び出し)。
+    #
+    # PPLM_GPU_OFFSET: PPLMワーカーが使う最初のGPU番号 (PepMLMがGPU0なので 1 から)
+    #   - PPLM_NUM_GPUS=4 + PPLM_GPU_OFFSET=1 → PPLMがGPU1,2,3,4を使用
+    pplm_num_gpus = int(getattr(cfg, "PPLM_NUM_GPUS", 1))
+    pplm_gpu_offset = int(getattr(cfg, "PPLM_GPU_OFFSET", 1))
+    parallel_evaluator = None
+    if pplm_num_gpus > 1:
+        if not _PARALLEL_PPLM_AVAILABLE:
+            print("[ParallelPPLM] WARNING: pplm_parallel_evaluator が import 失敗。"
+                  " 逐次評価にフォールバック。")
+        else:
+            n_visible = torch.cuda.device_count()
+            if pplm_gpu_offset + pplm_num_gpus > n_visible:
+                raise RuntimeError(
+                    f"[ParallelPPLM] GPU数が足りません: "
+                    f"PPLM_GPU_OFFSET({pplm_gpu_offset}) + "
+                    f"PPLM_NUM_GPUS({pplm_num_gpus}) > 可視GPU数({n_visible})\n"
+                    f"  jsub の ngpus を {pplm_gpu_offset + pplm_num_gpus} 以上に増やすか、"
+                    f"  config の PPLM_NUM_GPUS / PPLM_GPU_OFFSET を調整してください"
+                )
+            gpu_ids = list(range(pplm_gpu_offset,
+                                 pplm_gpu_offset + pplm_num_gpus))
+            print(f"\n[ParallelPPLM] PPLM評価を {pplm_num_gpus} GPU に分散 "
+                  f"(GPUs: {gpu_ids})")
+            parallel_evaluator = ParallelPPLMEvaluator(
+                pplm_script=cfg.PPLM_SCRIPT,
+                gpu_ids=gpu_ids,
+            )
+    else:
+        print("\n[ParallelPPLM] PPLM評価は逐次 (PPLM_NUM_GPUS=1 or 未設定)")
+
     # ★ 標準AAの vocab ID セットを事前に構築（ループ外で1回だけ）
     valid_token_ids = build_valid_token_ids(tokenizer)
     print(f"[Tokenizer] 標準AA vocab IDs: {len(valid_token_ids)}種 確認済み")
@@ -617,22 +662,44 @@ def main():
         print("\n[AF2BIND] prior disabled (baseline PepMLM only)")
 
     # =========================
-    # SMC / Cryptic scores の設定
+    # SMC / Cryptic scores の設定 (学習用)
     # =========================
-    use_smc_flag = getattr(cfg, "USE_SMC", None)
+    # 学習用キー (TRAIN_*) を優先、無ければ旧キー (USE_SMC など) を fallback。
+    # 旧キーが使われていた場合は deprecation warning を出す。
+    def _get_train_smc_key(cfg, new_key, old_key, default=None, cast=None):
+        """新キー優先、無ければ旧キーを使う。旧キーが使われた場合は警告。"""
+        if hasattr(cfg, new_key):
+            v = getattr(cfg, new_key)
+            return cast(v) if cast and v is not None else v
+        if hasattr(cfg, old_key):
+            v = getattr(cfg, old_key)
+            print(f"[SMC] WARNING: config key '{old_key}' は非推奨です。"
+                  f" '{new_key}' に置き換えてください (学習用)。")
+            return cast(v) if cast and v is not None else v
+        return default
+
+    use_smc_flag = _get_train_smc_key(cfg, "TRAIN_USE_SMC", "USE_SMC", default=None)
+    smc_num_particles = _get_train_smc_key(
+        cfg, "TRAIN_SMC_NUM_PARTICLES", "SMC_NUM_PARTICLES",
+        default=8, cast=int,
+    )
+    smc_lambda = _get_train_smc_key(
+        cfg, "TRAIN_SMC_LAMBDA", "SMC_LAMBDA",
+        default=1.0, cast=float,
+    )
+
+    # cryptic 共通設定 (学習・推論共有)
     cryptic_scores_path = getattr(cfg, "CRYPTIC_SCORES_PATH", None)
     cryptic_threshold = float(getattr(cfg, "CRYPTIC_THRESHOLD", 0.5))
-    smc_num_particles = int(getattr(cfg, "SMC_NUM_PARTICLES", 8))
-    smc_lambda = float(getattr(cfg, "SMC_LAMBDA", 1.0))
 
     cryptic_scores: Optional[List[float]] = None
     use_smc = False
 
     if use_smc_flag is False:
-        print("\n[SMC] USE_SMC=false が指定されています。通常Gibbsを使用します。")
+        print("\n[SMC] TRAIN_USE_SMC=false が指定されています。通常Gibbsを使用します。")
     elif use_smc_flag is True:
         if cryptic_scores_path and os.path.exists(cryptic_scores_path):
-            print(f"\n[SMC] USE_SMC=true: cryptic scores を読み込み中: {cryptic_scores_path}")
+            print(f"\n[SMC] TRAIN_USE_SMC=true: cryptic scores を読み込み中: {cryptic_scores_path}")
             cryptic_scores = load_cryptic_scores(cryptic_scores_path, cfg.TARGET_SEQUENCE)
             n_important = sum(1 for s in cryptic_scores if s >= cryptic_threshold)
             print(f"[SMC] 重要残基数: {n_important} / {len(cryptic_scores)} (threshold={cryptic_threshold})")
@@ -640,7 +707,7 @@ def main():
             use_smc = True
         else:
             raise ValueError(
-                "[SMC] USE_SMC=true ですが CRYPTIC_SCORES_PATH が未設定または存在しません。"
+                "[SMC] TRAIN_USE_SMC=true ですが CRYPTIC_SCORES_PATH が未設定または存在しません。"
                 f" path={cryptic_scores_path}"
             )
     else:
@@ -723,60 +790,101 @@ def main():
                 lambda_af2bind=lambda_af2bind,
             )
 
-    for it in range(cfg.NUM_ITERATIONS):
-        print(f"\n=== Iteration {it+1} ===")
-        samples = []
+    # =========================
+    # メインループ (try/finallyで並列ワーカーの確実なクリーンアップ)
+    # =========================
+    try:
+        for it in range(cfg.NUM_ITERATIONS):
+            print(f"\n=== Iteration {it+1} ===")
+            t_iter_start = __import__("time").time()
 
-        for i in range(cfg.NUM_SAMPLES_PER_ITER):
-            peptide = sample_peptide()
-            score = evaluator.score(cfg.TARGET_SEQUENCE, peptide, step=i)
-            samples.append((peptide, score))
+            # ---- フェーズ1: ペプチド生成 (Gibbs) ----
+            # 並列化していない (Gibbsの乱数消費順序を保つため)
+            t_gen_start = __import__("time").time()
+            peptides: List[str] = []
+            for i in range(cfg.NUM_SAMPLES_PER_ITER):
+                peptides.append(sample_peptide())
+            t_gen = __import__("time").time() - t_gen_start
+            print(f"  生成 (Gibbs, 逐次): {t_gen:.1f}秒 "
+                  f"({t_gen/cfg.NUM_SAMPLES_PER_ITER:.2f}秒/sample)")
 
-        kept = set(filter_top_k(samples, cfg.TOP_K_PERCENT))
+            # ---- フェーズ2: PPLM 評価 (並列 or 逐次) ----
+            t_eval_start = __import__("time").time()
+            if parallel_evaluator is not None:
+                scores = parallel_evaluator.score_batch(
+                    [(cfg.TARGET_SEQUENCE, p) for p in peptides],
+                    step_offset=it * cfg.NUM_SAMPLES_PER_ITER,
+                )
+                mode = f"並列 x{pplm_num_gpus}"
+            else:
+                scores = [
+                    evaluator.score(cfg.TARGET_SEQUENCE, p, step=i)
+                    for i, p in enumerate(peptides)
+                ]
+                mode = "逐次"
+            t_eval = __import__("time").time() - t_eval_start
+            print(f"  評価 (PPLM, {mode}): {t_eval:.1f}秒 "
+                  f"({t_eval/cfg.NUM_SAMPLES_PER_ITER:.2f}秒/sample)")
 
-        for idx, (pep, score) in enumerate(samples):
-            csv_writer.writerow({
-                "iteration": it + 1,
-                "sample_idx": idx,
-                "peptide": pep,
-                "affinity": score,
-                "kept": int(pep in kept),
-                "gibbs_steps": cfg.NUM_GIBBS_STEPS,
-                "temperature": cfg.TEMPERATURE,
-                "epoch": "",
-                "mlm_loss": "",
-            })
+            samples = list(zip(peptides, scores))
 
-        dataset = MLMDataset(
-            [(cfg.TARGET_SEQUENCE, p) for p in kept],
-            tokenizer,
-            cfg.MLM_MASK_PROB,
-        )
+            kept = set(filter_top_k(samples, cfg.TOP_K_PERCENT))
 
-        finetune_mlm(model, dataset, optimizer, cfg, csv_writer, it + 1, tokenizer)
+            for idx, (pep, score) in enumerate(samples):
+                csv_writer.writerow({
+                    "iteration": it + 1,
+                    "sample_idx": idx,
+                    "peptide": pep,
+                    "affinity": score,
+                    "kept": int(pep in kept),
+                    "gibbs_steps": cfg.NUM_GIBBS_STEPS,
+                    "temperature": cfg.TEMPERATURE,
+                    "epoch": "",
+                    "mlm_loss": "",
+                })
 
-        checkpoint_folder = os.path.join(
-            "/home/users/gds/pepmlm_pplm/checkpoint", folder_name
-        )
-        os.makedirs(checkpoint_folder, exist_ok=True)
-        ckpt_path = os.path.join(checkpoint_folder, f"pepmlm_iter_{it+1}.pt")
-        torch.save(model.state_dict(), ckpt_path)
-        print(f"  saved: {ckpt_path}")
+            dataset = MLMDataset(
+                [(cfg.TARGET_SEQUENCE, p) for p in kept],
+                tokenizer,
+                cfg.MLM_MASK_PROB,
+            )
 
-        """
-        # ---- 追加: 多様性チェック ----
-        all_peptides = [p for p, _ in samples]
-        cluster_count = mmseqs_cluster_from_sequences(
-            all_peptides,
-            min_seq_id=cfg.MMSEQS_MIN_SEQ_ID,
-            coverage=cfg.MMSEQS_COVERAGE
-        )
-        print(f"  clusters: {cluster_count}")
-        if cluster_count == 1:
-            print("  Early stopping: converged to one cluster")
-            break
-            log_file.close()
-        """
+            finetune_mlm(model, dataset, optimizer, cfg, csv_writer, it + 1, tokenizer)
+
+            checkpoint_folder = os.path.join(
+                "/home/users/gds/pepmlm_pplm/checkpoint", folder_name
+            )
+            os.makedirs(checkpoint_folder, exist_ok=True)
+            ckpt_path = os.path.join(checkpoint_folder, f"pepmlm_iter_{it+1}.pt")
+            torch.save(model.state_dict(), ckpt_path)
+            print(f"  saved: {ckpt_path}")
+
+            """
+            # ---- 追加: 多様性チェック ----
+            all_peptides = [p for p, _ in samples]
+            cluster_count = mmseqs_cluster_from_sequences(
+                all_peptides,
+                min_seq_id=cfg.MMSEQS_MIN_SEQ_ID,
+                coverage=cfg.MMSEQS_COVERAGE
+            )
+            print(f"  clusters: {cluster_count}")
+            if cluster_count == 1:
+                print("  Early stopping: converged to one cluster")
+                break
+                log_file.close()
+            """
+
+            # ---- iteration の総時間 ----
+            t_iter = __import__("time").time() - t_iter_start
+            print(f"  Iteration {it+1} 合計: {t_iter:.1f}秒")
+
+    finally:
+        # ---- 例外発生時も確実にワーカーを停止 ----
+        if parallel_evaluator is not None:
+            print("\n[ParallelPPLM] ワーカーを停止中...")
+            parallel_evaluator.close()
+            print("[ParallelPPLM] 停止完了")
+        log_file.close()
 
 
 if __name__ == "__main__":

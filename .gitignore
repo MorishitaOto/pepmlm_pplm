@@ -48,3 +48,27 @@ script/run_*.txt
 !config/
 !cryptic_json/
 !data/pdb/
+
+# ===== Boltz intermediate dirs (output data) =====
+boltz/*/
+boltz/*/input_yaml/
+
+# ===== Accidental files =====
+--pipeline_config
+--skip
+
+# ===== Backup files =====
+*.bak
+*.bakLast
+
+# ===== Boltz intermediate dirs =====
+boltz/*/
+boltz/*/input_yaml/
+
+# ===== Accidental CLI arg files =====
+--pipeline_config
+--skip
+
+# ===== Backup files =====
+*.bak
+*.bakLast

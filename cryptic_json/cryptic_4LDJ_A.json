@@ -1,0 +1,1354 @@
+[
+  {
+    "residue_id": 1,
+    "residue_name": "M",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 2,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 3,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 4,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 5,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 6,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 7,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 8,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 9,
+    "residue_name": "V",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 10,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 11,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 12,
+    "residue_name": "C",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 13,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 14,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 15,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 16,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 17,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 18,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 19,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 20,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 21,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 22,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 23,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 24,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 25,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 26,
+    "residue_name": "N",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 27,
+    "residue_name": "H",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 28,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 29,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 30,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 31,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 32,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 33,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 34,
+    "residue_name": "P",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 35,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 36,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 37,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 38,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 39,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 40,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 41,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 42,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 43,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 44,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 45,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 46,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 47,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 48,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 49,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 50,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 51,
+    "residue_name": "C",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 52,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 53,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 54,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 55,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 56,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 57,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 58,
+    "residue_name": "T",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 59,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 60,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 61,
+    "residue_name": "Q",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 62,
+    "residue_name": "E",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 63,
+    "residue_name": "E",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 64,
+    "residue_name": "Y",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 65,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 66,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 67,
+    "residue_name": "M",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 68,
+    "residue_name": "R",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 69,
+    "residue_name": "D",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 70,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 71,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 72,
+    "residue_name": "M",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 73,
+    "residue_name": "R",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 74,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 75,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 76,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 77,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 78,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 79,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 80,
+    "residue_name": "C",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 81,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 82,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 83,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 84,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 85,
+    "residue_name": "N",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 86,
+    "residue_name": "N",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 87,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 88,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 89,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 90,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 91,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 92,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 93,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 94,
+    "residue_name": "H",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 95,
+    "residue_name": "H",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 96,
+    "residue_name": "Y",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 97,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 98,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 99,
+    "residue_name": "Q",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 100,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 101,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 102,
+    "residue_name": "R",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 103,
+    "residue_name": "V",
+    "raw_score": 1.0,
+    "normalized_score": 1.0,
+    "active_score_type": "raw",
+    "displayed_score": 1.0
+  },
+  {
+    "residue_id": 104,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 105,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 106,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 107,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 108,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 109,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 110,
+    "residue_name": "P",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 111,
+    "residue_name": "M",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 112,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 113,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 114,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 115,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 116,
+    "residue_name": "N",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 117,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 118,
+    "residue_name": "C",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 119,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 120,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 121,
+    "residue_name": "P",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 122,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 123,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 124,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 125,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 126,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 127,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 128,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 129,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 130,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 131,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 132,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 133,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 134,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 135,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 136,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 137,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 138,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 139,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 140,
+    "residue_name": "P",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 141,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 142,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 143,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 144,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 145,
+    "residue_name": "S",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 146,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 147,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 148,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 149,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 150,
+    "residue_name": "Q",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 151,
+    "residue_name": "G",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 152,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 153,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 154,
+    "residue_name": "D",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 155,
+    "residue_name": "A",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 156,
+    "residue_name": "F",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 157,
+    "residue_name": "Y",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 158,
+    "residue_name": "T",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 159,
+    "residue_name": "L",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 160,
+    "residue_name": "V",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 161,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 162,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 163,
+    "residue_name": "I",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 164,
+    "residue_name": "R",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 165,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 166,
+    "residue_name": "H",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 167,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 168,
+    "residue_name": "E",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  },
+  {
+    "residue_id": 169,
+    "residue_name": "K",
+    "raw_score": 0.0,
+    "normalized_score": 0.0,
+    "active_score_type": "raw",
+    "displayed_score": 0.0
+  }
+]

@@ -1,27 +1,21 @@
 {
-  "TRAIN_CONFIG": "/home/users/gds/pepmlm_pplm/config/20260502_6XI7_cryptic.json",
+  "TRAIN_CONFIG": "/home/users/gds/pepmlm_pplm/config/20260520_4LDJ_cryptic.json",
   "ITERATION": 100,
-  "PDB_ID": "6XI7",
-
+  "PDB_ID": "4LDJ",
   "NUM_SAMPLES": 100,
   "TOP_N": 10,
-
-  "APO_PDB": "/home/users/gds/pepmlm_pplm/data/pdb/6XI7_apo.pdb",
-  "HOLO_PDB": "/home/users/gds/pepmlm_pplm/data/pdb/6XI7_holo.pdb",
-
-  "CRYPTIC_SCORES_JSON": "/home/users/gds/pepmlm_pplm/cryptic_json/cryptic_6XI7_A.json",
+  "APO_PDB": "/home/users/gds/pepmlm_pplm/data/pdb/4LDJ_apo.pdb",
+  "HOLO_PDB": "/home/users/gds/pepmlm_pplm/data/pdb/5XCO_holo.pdb",
+  "CRYPTIC_SCORES_JSON": "/home/users/gds/pepmlm_pplm/cryptic_json/cryptic_4LDJ_A.json",
   "CRYPTIC_THRESHOLD": 0.3,
   "CRYPTIC_RESIDUES": null,
-
   "TARGET_CHAIN": "A",
   "PEPTIDE_CHAIN": "B",
   "APO_CHAIN": "A",
   "HOLO_CHAIN": "A",
   "HOLO_LIGAND_NAME": null,
   "INTERFACE_CUTOFF": 5.0,
-
   "PEPMLM_PPLM_ROOT": "/home/users/gds/pepmlm_pplm",
-
   "BOLTZ_OPTIONS": {
     "output_format": "pdb",
     "use_msa_server": false,
@@ -30,11 +24,9 @@
     "write_full_pae": false,
     "write_full_pde": false
   },
-
   "SKIP_STEPS": [],
   "PYTHON_EXECUTABLE": "/home/users/gds/.conda/envs/pplm/bin/python",
   "BOLTZ_PYTHON_EXECUTABLE": "/home/users/gds/miniforge3/envs/boltz/bin/python",
- 
   "CRYPTOBANK_DIR": "/home/users/gds/pepmlm_pplm/src/CryptoBank",
   "CRYPTOBANK_N_LIG_SPLITS": 1
 }
